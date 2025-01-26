@@ -1,0 +1,106 @@
+# General .NET and build artifacts
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.app/
+*.ipa
+*.so
+*.dylib
+*.a
+*.lib
+*.csproj.user
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+project.lock.json
+project.assets.json
+project.nuget.cache
+
+# Visual Studio specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+*.log
+
+# Rider (JetBrains) specific files
+.idea/
+*.sln.iml
+
+# Packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+packages.lock.json
+
+# Configuration files
+appsettings*.json
+secrets.json
+launchSettings.json
+
+# Logs and runtime artifacts
+logs/
+*.log
+*.tlog
+*.cache
+*.pid
+*.db
+*.mdb
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite3
+*.swp
+*.lock
+
+# Docker files
+.dockerignore
+**/Dockerfile
+**/docker-compose.*
+docker-compose.override.yml
+docker-compose.override.yml
+
+# Kubernetes & Helm charts
+helm-charts/**/charts/
+helm-charts/**/tmp/
+helm-charts/**/cache/
+helm-charts/**/manifests/
+helm-charts/**/values.yaml
+helm-charts/**/values.override.yaml
+helm-charts/**/values.production.yaml
+helm-charts/**/release.yaml
+*.kube/config
+
+# Temporary files
+*.sw?
+*~
+*.bak
+*.old
+*.orig
+*.rej
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OS-specific files
+.DS_Store
+ehthumbs.db
+Icon?
+._*
+
+# User-specific files
+*.env
+.env.*
+!env.example
+*.key
+*.pem
+*.crt
+*.pfx
+*.p12
+*.jks
+*.cert

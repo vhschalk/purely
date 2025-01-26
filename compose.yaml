@@ -1,0 +1,6 @@
+﻿services:
+  consoleapp1:
+    image: consoleapp1
+    build:
+      context: .
+      dockerfile: ConsoleApp1/Dockerfile
